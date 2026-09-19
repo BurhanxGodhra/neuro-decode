@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>NEURO-DECODE</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="app">
+    <canvas id="scene-canvas"></canvas>
+    <nav id="station-nav">
+      <a href="#/acquisition" data-route="acquisition">01 · Acquisition</a>
+      <a href="#/spatial-filter" data-route="spatial-filter">02 · Spatial Filter</a>
+      <a href="#/latent-space" data-route="latent-space">03 · Latent Space</a>
+    </nav>
+    <div id="hud-root"></div>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>
